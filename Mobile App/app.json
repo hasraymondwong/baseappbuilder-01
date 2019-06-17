@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "App Platform - UniApp",
-    "description": "App Platform - All in one React Native Universal Mobile App. \nThis is all in one Multi-Purpose Expo React Native Mobile app.\nIt works for iPhone and Android. In fact, this is a bundle of multiple apps, that follow same design and coding pattern. Buy this app for for $49$ on https://codecanyon.net/item/universal-app-platform-full-multipurpose-all-in-one-react-native-mobile-app/21247686",
-    "slug": "uniexpoapp",
+    "name": "Base Ticker Scanner",
+    "description": "Made with react app builder",
+    "slug": "basetickerscanner",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "version": "1.0.0",
@@ -18,7 +18,7 @@
       "backgroundColor": "#ffffff"
     },
     "extra": {
-      "firebaseMetaPath": "/meta"
+      "firebaseMetaPath": "/myapps/basetickerscanner"
     },
     "icon": "./assets/icons/app.png",
     "loading": {
@@ -33,10 +33,10 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.mobidonia.uniexpoapp"
+      "bundleIdentifier": "baseapp.ticket.scanner"
     },
     "android": {
-      "package": "com.mobidonia.uniexpoapp"
+      "package": "baseapp.ticket.scanner"
     }
   }
 }
